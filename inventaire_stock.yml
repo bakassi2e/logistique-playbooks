@@ -1,1 +1,6 @@
-
+---
+- name: Inventaire du stock
+  hosts: all
+  gather_facts: false
+  roles:
+    - logistique.entrepot.inventaire_stock
